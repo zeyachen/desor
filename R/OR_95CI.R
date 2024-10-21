@@ -1,5 +1,5 @@
-#' Confidence Interval
-#' return the 95% CI of odds ratio in a string
+#' Return the CI of odds ratio
+#'
 #' @param coef Coefficient from logistic regression
 #' @param se Standard error from logistic regression
 #' @param siglevel Designated significance level
