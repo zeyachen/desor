@@ -2,8 +2,7 @@
 % Please edit documentation in R/OR_95CI.R
 \name{OR_95CI}
 \alias{OR_95CI}
-\title{Confidence Interval
-return the 95% CI of odds ratio in a string}
+\title{Return the CI of odds ratio}
 \usage{
 OR_95CI(coef, se, siglevel, roundto)
 }
@@ -20,10 +19,9 @@ OR_95CI(coef, se, siglevel, roundto)
 ORresult
 }
 \description{
-Confidence Interval
-return the 95% CI of odds ratio in a string
+Return the CI of odds ratio
 }
 \examples{
 OR_95CI(0,1,0.95,2)
-0 (-1.96,1.96)
+1.00 (0.94, 1.06)
 }
